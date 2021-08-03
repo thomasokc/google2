@@ -1,0 +1,22 @@
+body {
+    font-family: Roboto, "Noto Sans", Arial, sans-serif;
+    font-size: 81.25%;
+}
+
+#content {
+    align-items:center;
+    display:flex;
+    flex-direction:column;
+}
+
+#id{
+    border-radius: 0.5;
+}
+
+#container{
+    
+}
+
+.tile{
+    text-decoration: none;
+}
