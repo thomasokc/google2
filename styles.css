@@ -21,25 +21,36 @@ body {
     align-items:center;
     display:flex;
     flex-direction:column;
-    padding-top:20em;
+    padding-top:10em;
 }
 
 #input{
     border-radius: 25px;
     margin-top: 3em;
     border:none;
-    box-shadow: 5px 5px 5px 5px lightgray;
+    box-shadow: 10px 5px 5px 5px lightgray;
+    width: 35em;
+    padding: 15px 44px 15px 52px;
+    font-size:medium;
 }
 
 #container{
-    display:flex;
+    display:grid;
     padding-top: 3em;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
 }
 
 .tile{
     text-decoration: none;
-    padding: 0px 10px 10px 10px;
+    padding: 10px 20px 10px 20px;
     align-items:center;
+    color: black;
+}
+
+.tile:hover{
+    background-color: lightgray;
+    border-radius: 10px;
 }
 
 .tile-icon{
