@@ -3,20 +3,49 @@ body {
     font-size: 81.25%;
 }
 
+#space{
+    width: 80em;
+    display:inline-block;
+}
+
+#shortcut{
+    display:inline-block;
+    text-decoration:none;
+}
+
+.shortopt{
+    text-decoration:none;
+}
+
 #content {
     align-items:center;
     display:flex;
     flex-direction:column;
+    padding-top:20em;
 }
 
-#id{
-    border-radius: 0.5;
+#input{
+    border-radius: 25px;
+    margin-top: 3em;
+    border:none;
+    box-shadow: 5px 5px 5px 5px lightgray;
 }
 
 #container{
-    
+    display:flex;
+    padding-top: 3em;
 }
 
 .tile{
     text-decoration: none;
+    padding: 0px 10px 10px 10px;
+    align-items:center;
+}
+
+.tile-icon{
+    width:2em;
+    height: 2em;
+    background-color:hsl(0, 8%, 93%);
+    border-radius: 50px;
+    padding: 10px 10px 10px 10px;
 }
