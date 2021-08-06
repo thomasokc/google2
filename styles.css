@@ -24,6 +24,10 @@ body {
     padding-top:10em;
 }
 
+#input-wrapper{
+   position: relative;
+}
+
 #input{
     border-radius: 25px;
     margin-top: 3em;
@@ -32,6 +36,14 @@ body {
     width: 35em;
     padding: 15px 44px 15px 52px;
     font-size:medium;
+    position: relative;
+}
+
+#search-icon{
+    height: 2em;
+    position:absolute;
+    top: 0px;
+    left: 0px;
 }
 
 #container{
